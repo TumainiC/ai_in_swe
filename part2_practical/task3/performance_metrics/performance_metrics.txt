@@ -1,0 +1,23 @@
+Breast Cancer Classification Model Performance Report
+=======================================================
+
+Training Accuracy: 1.0000
+Test Accuracy: 0.7500
+Training F1-Score: 1.0000
+Test F1-Score: 0.7368
+ROC AUC Score: 0.7500
+Precision-Recall AUC: 0.6940
+
+Confusion Matrix (Test Set):
+[[8 2]
+ [3 7]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Benign       0.73      0.80      0.76        10
+   Malignant       0.78      0.70      0.74        10
+
+    accuracy                           0.75        20
+   macro avg       0.75      0.75      0.75        20
+weighted avg       0.75      0.75      0.75        20
